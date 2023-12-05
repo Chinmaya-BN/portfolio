@@ -19,7 +19,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   --body-font: "Poppins", sans-serif;
-  --big-font-size: 2rem;
+  --big-font-size: 2rem;  
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -531,7 +531,7 @@ img {
 }
 
 /* services  */
-.services-container {
+.services-container { 
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -546,7 +546,7 @@ img {
 }
 
 .services-content:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 8px rgba(161, 10, 10, 0.616);
 }
 
 .services-icon {
@@ -560,6 +560,7 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: var(--margin-bottom-0-1);
   font-weight: var(--font-medium);
+  
 }
 
 .services-button {
@@ -569,6 +570,9 @@ img {
 
 .services-button:hover .button-icon {
   transform: translateX(0.25rem);
+}
+.services-button:hover{
+  color: rgb(255, 66, 66);
 }
 
 .services-box {
@@ -811,7 +815,7 @@ img {
   /* hii  */
 }
 .footer-link:hover {
-  color: var(--first-color-lighter);
+  color: rgb(159, 25, 25);
 }
 
 .footer-social {
@@ -820,7 +824,7 @@ img {
 }
 
 .footer-social:hover {
-  color: var(--first-color-lighter);
+  color: rgb(159, 25, 25);
 }
 
 .footer-copy {
