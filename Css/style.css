@@ -384,7 +384,7 @@ img {
 
 .button-link:hover {
   background-color: transparent;
-  color: #5b0888;
+  color: #7a0000;
 }
 
 /* about  */
@@ -546,7 +546,7 @@ img {
 }
 
 .services-content:hover {
-  box-shadow: 0 4px 8px rgba(161, 10, 10, 0.616);
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.948);
 }
 
 .services-icon {
@@ -572,7 +572,7 @@ img {
   transform: translateX(0.25rem);
 }
 .services-button:hover{
-  color: rgb(255, 66, 66);
+  color: rgb(173, 0, 0);
 }
 
 .services-box {
