@@ -3,12 +3,12 @@
 :root {
   --header-height: 3rem;
 
-  --hue-color: 250;
+  --hue-color: 360;
 
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --first-color-lighter: hsl(var(--hue-color), 120%,70%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -62,8 +62,8 @@ body.dark-theme {
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 28%, 12%);
-  --container-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 28%, 5%);
+  --container-color: hsl(var(--hue-color), 20%, 10%);
   transition: 0.3s ease-in;
 }
 
@@ -289,7 +289,8 @@ img {
 }
 
 .home-blob-img {
-  width: 240px;
+  width: 190px;
+  height: 250px;
 }
 
 .home-data {
@@ -526,7 +527,7 @@ img {
 }
 
 .qualification-button.qualification-active {
-  color: #5b0888;
+  color: rgb(255, 66, 66);
 }
 
 /* services  */
